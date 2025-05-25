@@ -46,7 +46,7 @@ export const Home = () => {
               </div>
             </div>
             <img
-              src="/Asish-Portfolio/IMG-20231217-WA0037.jpg"
+              src="IMG-20231217-WA0037.jpg"
               alt="Asish Jana"
               className="w-80 h-120 rounded-full  shadow-lg object-cover mt-8 md:mt-0 md:ml-12"
             />
