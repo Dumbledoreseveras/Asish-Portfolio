@@ -10,11 +10,11 @@ export const Home = () => {
     >
       <RevealOnScroll>
           <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4 w-full max-w-5xl">
-            <div className="text-center md:text-left">
-              <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent leading-right">
+            <div className="text-center md:text-left sm:px-0">
+              <h1 className="text-3xl sm:text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent leading-tight">
                 Hi👋, I'm Asish Jana
               </h1>
-              <p className="text-gray-400 text-lg mb-8 max-w-lg">
+              <p className="text-gray-400 text-base sm:text-lg mb-8 max-w-lg mx-auto md:mx-0">
                 As a full-stack developer and data analyst, I am passionate about designing clean, 
                 scalable web applications that seamlessly integrate data-driven insights. 
                 My goal is to build solutions that not only deliver exceptional performance but also 
