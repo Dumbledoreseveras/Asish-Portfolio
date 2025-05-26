@@ -50,7 +50,7 @@ export const Home = () => {
             <img
               src={profileImg}
               alt="Asish Jana"
-              className="w-80 h-120 rounded-full  shadow-lg object-cover mt-8 md:mt-0 md:ml-12"
+              className="w-40 h-40 md:w-80 md:h-120 max-w-full rounded-full shadow-lg object-cover mt-8 md:mt-0 md:ml-12"
             />
           </div>
       </RevealOnScroll>
