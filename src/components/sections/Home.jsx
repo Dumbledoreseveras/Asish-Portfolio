@@ -9,8 +9,8 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative"
     >
       <RevealOnScroll>
-          <div className="flex flex-col sm:flex-col md:flex-row items-center justify-center z-10 px-4 w-full max-w-5xl">
-            <div className="text-center md:text-left">
+          <div className="flex flex-col md:flex-row items-center justify-center z-10 px-4 w-full max-w-5xl">
+            <div className="text-center z-10 px-4">
               <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-purple-400 bg-clip-text text-transparent leading-right">
                 Hi👋, I'm Asish Jana
               </h1>
