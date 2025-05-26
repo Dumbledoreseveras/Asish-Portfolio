@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import profileImg from "../../assets/IMG-20231217-WA0037.jpg";
+import CV from "../../assets/CV_Resume.pdf";
 
 export const Home = () => {
   return (
@@ -33,7 +35,7 @@ export const Home = () => {
                 </a>
 
                 <a
-                  href="CV_Resume.pdf"
+                  href={CV}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-gradient-to-r from-lilac-500 to-blue-400 text-white py-3 px-6 rounded font-medium transition hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(139,92,246,0.3)] flex items-center gap-2"
@@ -46,7 +48,7 @@ export const Home = () => {
               </div>
             </div>
             <img
-              src="IMG-20231217-WA0037.jpg"
+              src={profileImg}
               alt="Asish Jana"
               className="w-80 h-120 rounded-full  shadow-lg object-cover mt-8 md:mt-0 md:ml-12"
             />
