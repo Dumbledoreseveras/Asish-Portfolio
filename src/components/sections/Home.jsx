@@ -40,7 +40,7 @@ export const Home = () => {
                   </a>
 
                   <a
-                    href="https://www.linkedin.com/in/asish-jana"
+                    href="https://www.linkedin.com/in/asish-jana-91b8423a6"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-cyan-200 hover:text-blue-500 transition-all duration-300 hover:scale-125 transform"
