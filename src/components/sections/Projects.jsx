@@ -7,7 +7,7 @@ export const Projects = () => {
       id="projects" 
       className="relative min-h-screen py-24 overflow-hidden"
     >
-      {/* Background Image - Add your image here */}
+
       <div
   className="absolute inset-0 bg-cover bg-center bg-no-repeat"
   style={{
@@ -18,13 +18,13 @@ export const Projects = () => {
   }}
 />
 
-      {/* Dark Overlay */}
+      
       <div className="absolute inset-0 bg-black/40" />
 
-      {/* Content */}
+      
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <RevealOnScroll>
-          {/* Header Section */}
+          
           <div className="text-center mb-16">
             <p className="text-red-500 uppercase tracking-[8px] text-sm mb-4 font-semibold">
               PORTFOLIO
@@ -35,16 +35,16 @@ export const Projects = () => {
               <span className="text-red-500 ml-4">PROJECTS</span>
             </h2>
             
-            {/* Japanese text */}
+            
             <p className="text-2xl md:text-3xl text-gray-300 font-light tracking-wider">
               武士の道は終わらない
             </p>
             <p className="text-gray-400 text-sm mt-2">The Way of the Samurai Never Ends</p>
           </div>
 
-          {/* Projects Grid */}
+          
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Project 1 - Agriculture */}
+            
             <div className="group p-6 rounded-xl bg-black/30 backdrop-blur-sm border border-white/10 hover:border-red-500/50 hover:shadow-[0_4px_20px_rgba(239,68,68,0.15)] transition-all duration-300 hover:-translate-y-2">
               <h3 className="text-2xl font-bold text-white mb-2">Agriculture Production Optimization System</h3>
               <p className="text-red-400 text-sm mb-4 font-semibold tracking-wide">Euphoria GenX</p>
@@ -64,7 +64,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            {/* Project 2 - Heart Disease */}
+            
             <div className="group p-6 rounded-xl bg-black/30 backdrop-blur-sm border border-white/10 hover:border-red-500/50 hover:shadow-[0_4px_20px_rgba(239,68,68,0.15)] transition-all duration-300 hover:-translate-y-2">
               <h3 className="text-2xl font-bold text-white mb-2">Heart Disease Prediction</h3>
               <p className="text-red-400 text-sm mb-4 font-semibold tracking-wide">Ardent CompuTech Pvt Ltd</p>
@@ -84,7 +84,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            {/* Project 3 - Emotion Music Player */}
+            
             <div className="group p-6 rounded-xl bg-black/30 backdrop-blur-sm border border-white/10 hover:border-red-500/50 hover:shadow-[0_4px_20px_rgba(239,68,68,0.15)] transition-all duration-300 hover:-translate-y-2">
               <h3 className="text-2xl font-bold text-white mb-2">Emotion Based Music Player</h3>
               <p className="text-red-400 text-sm mb-4 font-semibold tracking-wide">Final Year Project</p>
@@ -130,7 +130,7 @@ export const Projects = () => {
               </div>
             </div>
 
-            {/* Project 4 - JARVIS-AI */}
+            
             <div className="group p-6 rounded-xl bg-black/30 backdrop-blur-sm border border-white/10 hover:border-red-500/50 hover:shadow-[0_4px_20px_rgba(239,68,68,0.15)] transition-all duration-300 hover:-translate-y-2">
               <h3 className="text-2xl font-bold text-white mb-2">JARVIS-AI</h3>
               <p className="text-red-400 text-sm mb-4 font-semibold tracking-wide">AI Voice Assistant (Ongoing)</p>

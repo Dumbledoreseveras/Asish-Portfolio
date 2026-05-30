@@ -32,7 +32,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="relative min-h-screen overflow-hidden py-24"
+      className="relative min-h-screen overflow-hidden py-24 scroll-mt-24 md:scroll-mt-28"
     >
       
       <div
