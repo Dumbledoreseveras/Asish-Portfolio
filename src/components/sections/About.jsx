@@ -36,10 +36,9 @@ export const About = () => {
     >
       
       <div
-        className="absolute inset-0 bg-cover bg-center opacity-20 scale-105"
+        className="absolute inset-0 bg-cover bg-center scale-105"
         style={{
         backgroundImage: `url(${aboutImg})`,
-        filter: "blur(1px)",
         }}
     />
 
